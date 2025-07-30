@@ -1,7 +1,7 @@
 # CHESS
 
-## Author
-Lukáš Hofman
+**author**: Lukáš Hofman  
+MFF UK 2024
 
 # Introduction  
 
