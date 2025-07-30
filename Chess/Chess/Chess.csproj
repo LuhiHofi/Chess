@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\b_bishop.png" />
+    <None Remove="Images\b_king.png" />
+    <None Remove="Images\b_knight.png" />
+    <None Remove="Images\b_pawn.png" />
+    <None Remove="Images\b_queen.png" />
+    <None Remove="Images\b_rook.png" />
+    <None Remove="Images\Icon.png" />
+    <None Remove="Images\w_bishop.png" />
+    <None Remove="Images\w_king.png" />
+    <None Remove="Images\w_knight.png" />
+    <None Remove="Images\w_pawn.png" />
+    <None Remove="Images\w_queen.ico" />
+    <None Remove="Images\w_queen.png" />
+    <None Remove="Images\w_rook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\b_bishop.png" />
+    <Content Include="Images\b_king.png" />
+    <Content Include="Images\b_knight.png" />
+    <Content Include="Images\b_pawn.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\b_queen.png" />
+    <Content Include="Images\b_rook.png" />
+    <Content Include="Images\Icon.png" />
+    <Content Include="Images\w_bishop.png" />
+    <Content Include="Images\w_king.png" />
+    <Content Include="Images\w_knight.png" />
+    <Content Include="Images\w_pawn.png" />
+    <Content Include="Images\w_queen.ico" />
+    <Content Include="Images\w_queen.png" />
+    <Content Include="Images\w_rook.png" />
+  </ItemGroup>
+
+</Project>
